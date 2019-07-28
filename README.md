@@ -8,7 +8,7 @@ Marvel APP
 `git clone https://github.com/salimhayani/MarvelApp MarvelApp`
 2. Importer le fichier MarvelApp_DB.sql qui se trouve dans la racine du projet dans votre serveur Mysql.
 3. Se rendre dans la racine du projet `cd MarvelApp` et lancer la commande : `composer install`
-4. La commande `composer install` va vous demander de fournir les paramètres de connexion à votre BD Mysql (ignorer les paramètres mailer puisqu'on l'utilise pas), Vous pouvez les modifier après en modifiant le fichier de paramètres : MarvelApp/app/config/parameters.yml et mettre votre host, port et identifiants de connexion Mysql.
+4. La commande `composer install` va vous demander de fournir les paramètres de connexion à votre BD Mysql (laisser les paramètres mailer par defaut puisqu'on l'utilise pas), Vous pouvez les modifier après en modifiant le fichier de paramètres : MarvelApp/app/config/parameters.yml et mettre votre host, port et identifiants de connexion Mysql.
 
 **Utilisation de l'application**:
 
