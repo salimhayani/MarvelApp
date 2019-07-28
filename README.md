@@ -1,10 +1,10 @@
 Marvel APP
 ========================
 
-**Prérequis**:  PHP 5.6 ou plus, Mysql 5, Composer
+**Prérequis**:  PHP 5.6 ou plus, Mysql 5, Composer, Git
 
 **Installation**: 
-1. Cloner le projet dans votre dossier www
+1. Cloner le projet dans votre dossier www avec la commande suivante :
 `git clone https://github.com/salimhayani/MarvelApp MarvelApp`
 2. Importer le fichier MarvelApp_DB.sql qui se trouve dans la racine du projet dans votre serveur Mysql.
 3. Se rendre dans la racine du projet `cd MarvelApp` et lancer la commande : `composer install`
