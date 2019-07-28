@@ -1,19 +1,19 @@
 Marvel APP
 ========================
 
-**Prérequis**:  PHP 5.6.40 ou plus, Mysql, Composer
+**Prérequis**:  PHP 5.6 ou plus, Mysql 5, Composer
 
 **Installation**: 
 1. Cloner le projet dans votre dossier www
-`git clone .....`
+`git clone https://github.com/salimhayani/MarvelApp MarvelApp`
 2. Importer le fichier MarvelApp_DB.sql qui se trouve dans la racine du projet dans votre serveur Mysql.
-3. Se rendre dans la racine du projet et lancer la commande : `composer install`
-4. Modifier le fichier de paramètres : MarvelApp/app/config/parameters.yml et mettre votre host, port et identifiants de connexion Mysql 5.
+3. Se rendre dans la racine du projet `cd MarvelApp` et lancer la commande : `composer install`
+4. La commande `composer install` va vous demander de fournir les paramètres de connexion à votre BD Mysql (ignorer les paramètres mailer puisqu'on l'utilise pas), Vous pouvez les modifier après en modifiant le fichier de paramètres : MarvelApp/app/config/parameters.yml et mettre votre host, port et identifiants de connexion Mysql.
 
 **Utilisation de l'application**:
 
 * Connectez-cous sur `(ipdevotreservuer)/MarvelApp/web/ ` vous aurez une page de connexion (les identifiants pour vous connecter vous ont été transmis par mail),
-* Après connexion vous aurez une liste des 20 personnages Marvel à partir du 100ème organisés en 4 par page, la navigation est en bas de page,
+* Après connexion vous aurez une page avec un header contenant un lien vers la homepage et un lien de déconnexion, dans le corps de la page vous aurez une liste des 20 personnages Marvel à partir du 100ème organisés en 4 par page, la navigation est en bas de page,
 * Au clic sur le bouton '**En savoir plus**' d'un personnage vous serez redirigés vers une page contenant les détails demandés pour ce personnage,
 
 **Personnalisation de la liste**:
