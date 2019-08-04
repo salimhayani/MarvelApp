@@ -57,14 +57,6 @@ class CharacterController extends Controller
         $results = json_decode($response->getBody());
         $heroes = $results->data->results;
 
-         foreach ($heroes as $hero) {
-            $hero->detailsUrl = $url = $this->generateUrl(
-                'heroDetails',
-                ['id' => $hero->id],
-                UrlGeneratorInterface::ABSOLUTE_URL
-            );
-        }
-
         }catch (GuzzleException $e) {
             $error = $e->getMessage();
         }

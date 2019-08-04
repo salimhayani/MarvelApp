@@ -47,7 +47,7 @@
                                 <div class="card-block px-3">
                                     <h4 class="card-title">{{ hero.name }}</h4>
                                     <p class="card-text"> {{ hero.description }} </p>
-                                    <a href="{{hero.detailsUrl}}" class="btn btn-dark">En savoir plus</a>
+                                    <a href="{{ path('heroDetails',{'id': hero.id}) }}" class="btn btn-dark">En savoir plus</a>
                                 </div>
                             </div>
 
