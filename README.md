@@ -18,8 +18,8 @@ Marvel APP
 
 **Personnalisation de la liste**:
 
-* si vous souhaitez modifier le nombre de personnages dans une page il suffit de modifier la constante `CHARACTERS_PER_PAGE` se trouvant dans le fichier `MarvelApp\src\AppBundle\Controller\CharacterController.php`,
-* si vous souhaitez modifier l'offset depuis lequel l'application charge les personnages il suffit de modifier la constante `FIRST_OFFSET` se trouvant dans le fichier `MarvelApp\src\AppBundle\Controller\CharacterController.php`,
-* si vous souhaitez modifier le nombre de personnages que l'application récupère depuis l'API Marvel il suffit de modifier la constante `NUMBER_OF_CHARACTERS_TO_GET` se trouvant dans le fichier `MarvelApp\src\AppBundle\Controller\CharacterController.php`,
+* si vous souhaitez modifier le nombre de personnages dans une page il suffit de modifier la constante `CHARACTERS_PER_PAGE` se trouvant dans le fichier `MarvelApp\src\AppBundle\Consumer\MarvelConsumer.php`,
+* si vous souhaitez modifier l'offset depuis lequel l'application charge les personnages il suffit de modifier la constante `FIRST_OFFSET` se trouvant dans le fichier `MarvelApp\src\AppBundle\Consumer\MarvelConsumer.php`,
+* si vous souhaitez modifier le nombre de personnages que l'application récupère depuis l'API Marvel il suffit de modifier la constante `NUMBER_OF_CHARACTERS_TO_GET` se trouvant dans le fichier `MarvelApp\src\AppBundle\Consumer\MarvelConsumer.php`,
 
 
