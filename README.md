@@ -22,4 +22,7 @@ Marvel APP
 * si vous souhaitez modifier l'offset depuis lequel l'application charge les personnages il suffit de modifier la constante `FIRST_OFFSET` se trouvant dans le fichier `MarvelApp\src\AppBundle\Consumer\MarvelConsumer.php`,
 * si vous souhaitez modifier le nombre de personnages que l'application récupère depuis l'API Marvel il suffit de modifier la constante `NUMBER_OF_CHARACTERS_TO_GET` se trouvant dans le fichier `MarvelApp\src\AppBundle\Consumer\MarvelConsumer.php`,
 
+**Amélioration des performances de l'application**:
+
+On peut améliorer les pérformances de l'application en implémentant un cache http pour mettre en cache les réponses de l'API Marvel en se basant sur le header etag et ne faire l'appel vers le WS que si ce header change.
 
