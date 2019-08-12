@@ -3,6 +3,8 @@ Marvel APP
 
 **Prérequis**:  PHP 5.6 ou plus, Mysql 5, Composer, Git
 
+Si vous souhaitez avoir la version developpée en NodeJS et Express cliquez [**ici**](https://github.com/salimhayani/MarvelAppNJS) 
+
 **Installation**: 
 1. Cloner le projet dans votre dossier www avec la commande suivante :
 `git clone https://github.com/salimhayani/MarvelApp MarvelApp`
